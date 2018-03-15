@@ -1,6 +1,6 @@
 
 
-public class copiado {
+public class Libro {
 
 
 public static void main(String[] args) {
@@ -8,15 +8,15 @@ public static void main(String[] args) {
         String titulo, autor = null;
         int ejemplares;
 
-        //se crea el objeto libro1 utilizando el constructor con par·metros
+        //se crea el objeto libro1 utilizando el constructor con par√°metros
         Libro libro1 = new Libro(" El Quijote de La Mancha.", "Miguel de Cervantes.", 2);
         //se crea el objeto libro2 utilizando el constructor por defecto
-        Libro libro2 = new Libro("El Capit·n Alatriste." , "Arturo PÈrez Reverte" , 1);
+        Libro libro2 = new Libro("El Capit√°n Alatriste." , "Arturo P√©rez Reverte" , 1);
 
     
 
         //se muestran por pantalla los datos del objeto libro1
-        //se utilizan los mÈtodos getters para acceder al valor de los atributos
+        //se utilizan los m√©todos getters para acceder al valor de los atributos
         System.out.println("Libro 1:");
         System.out.println("Titulo: " + libro1.dime_titulo());
         System.out.println("Autor: " + libro1.dime_autores());
